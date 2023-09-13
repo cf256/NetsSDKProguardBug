@@ -12,4 +12,6 @@ TRANSACTION_ID=TransactionId
 
 Run app.
 
+In debug mode the app works fine, but in release the app crashes when opening the nets activity, closing it, and opening it again. 
+See video:
 
