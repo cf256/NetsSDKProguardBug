@@ -14,7 +14,7 @@ Run app.
 
 In debug mode the app works fine, but in release the app crashes when opening the nets activity, closing it, and opening it again. 
 See video:
-![Video](netsbug.mp4)
+https://github.com/cf256/NetsSDKProguardBug/blob/main/netsbug.mp4
 
 ## Stacktrace:
 ```
