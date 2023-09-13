@@ -10,6 +10,8 @@ NETS_MERCHANT=MerchantId
 TRANSACTION_ID=TransactionId
 ```
 
+## Reproduction
+
 Run app.
 
 In debug mode the app works fine, but in release the app crashes when opening the nets activity, closing it, and opening it again. 
@@ -17,6 +19,8 @@ See video:
 
 https://github.com/cf256/NetsSDKProguardBug/assets/6727140/cc4bde39-69b9-4062-b62a-d5cf45b04e34
 
+I've been able to reproduce this on an emulator with Android 13, as well as on a real device Samsung Galaxy S21 5G with Android 13. 
+I have not been able to reproduce on other API levels
 
 ## Stacktrace:
 ```
